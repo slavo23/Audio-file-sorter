@@ -46,6 +46,6 @@ class AudioFileSorter:
 
 
 if __name__ == "__main__":
-    in_path = str(input("Path to the unsorted music folder: "))
-    out_path = str(input("Path to the output folder: "))
+    in_path = input("Path to the unsorted music folder: ")
+    out_path = input("Path to the output folder: ")
     AudioFileSorter(in_path, out_path).read_files()
